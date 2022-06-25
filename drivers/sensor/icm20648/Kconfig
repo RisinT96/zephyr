@@ -1,0 +1,14 @@
+# ICM20648 Six-Axis Motion Tracking device configuration options
+
+# Copyright (c) 2022 Tal Risin
+# SPDX-License-Identifier: Apache-2.0
+
+menuconfig ICM20648
+	bool "ICM20648 Six-Axis Motion Tracking Device"
+	depends on SPI
+	help
+	  Enable driver for ICM20648 SPI-based six-axis motion tracking device.
+
+if ICM20648
+
+endif # ICM20648
